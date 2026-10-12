@@ -1,0 +1,86 @@
+
+/* Basic page settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    line-height: 1.6;
+}
+
+/* Top introduction */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1e293b;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* Navigation links */
+nav {
+    text-align: left;
+    padding: 18px;
+    background-color: #020617;
+}
+
+nav a {
+    color: #f1f5f9;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Main content */
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #1e293b;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+article {
+    border-left: 3px solid #38bdf8;
+    padding-left: 15px;
+}
+
+/* Bottom area */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #020617;
+    color: #94a3b8;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 10px;
+    }
+}
